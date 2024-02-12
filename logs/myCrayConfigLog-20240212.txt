@@ -1,0 +1,28 @@
+2024-02-12 10:20:51.944 -03:00 [INF] User profile is available. Using 'C:\Users\Gugad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-12 10:20:52.499 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-12 10:20:52.501 -03:00 [INF] Hosting environment: Development
+2024-02-12 10:20:52.501 -03:00 [INF] Content root path: D:\Projetos_de_testes_Csharp\TesteMiddleware\TesteMiddleware.api
+2024-02-12 10:20:52.627 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/swagger/index.html - null null
+2024-02-12 10:20:53.307 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/swagger/index.html - 200 null text/html;charset=utf-8 689.7407ms
+2024-02-12 10:20:53.367 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-12 10:20:53.377 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 8.3372ms
+2024-02-12 10:20:53.400 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/_vs/browserLink - null null
+2024-02-12 10:20:53.484 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.912ms
+2024-02-12 10:20:53.705 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/swagger/v1/swagger.json - null null
+2024-02-12 10:20:53.894 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 189.4662ms
+2024-02-12 10:21:33.886 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:53881/api/Auth/register - application/json 50
+2024-02-12 10:21:34.543 -03:00 [INF] Executing endpoint 'TesteMiddleware.api.Controllers.AuthController.Register (TesteMiddleware.api)'
+2024-02-12 10:21:34.575 -03:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TesteMiddleware.api.Entities.User]] Register(TesteMiddleware.api.DTOs.UserDto) on controller TesteMiddleware.api.Controllers.AuthController (TesteMiddleware.api).
+2024-02-12 10:21:34.616 -03:00 [INF] Executing OkObjectResult, writing value of type 'TesteMiddleware.api.Entities.User'.
+2024-02-12 10:21:34.627 -03:00 [INF] Executed action TesteMiddleware.api.Controllers.AuthController.Register (TesteMiddleware.api) in 49.0562ms
+2024-02-12 10:21:34.627 -03:00 [INF] Executed endpoint 'TesteMiddleware.api.Controllers.AuthController.Register (TesteMiddleware.api)'
+2024-02-12 10:21:34.628 -03:00 [INF] HTTP POST /api/Auth/register responded 200 in 714.4530 ms
+2024-02-12 10:21:34.629 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:53881/api/Auth/register - 200 null application/json; charset=utf-8 743.0181ms
+2024-02-12 10:21:39.103 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:53881/api/Auth/login - application/json 50
+2024-02-12 10:21:39.105 -03:00 [INF] Executing endpoint 'TesteMiddleware.api.Controllers.AuthController.Login (TesteMiddleware.api)'
+2024-02-12 10:21:39.113 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(TesteMiddleware.api.DTOs.UserDto) on controller TesteMiddleware.api.Controllers.AuthController (TesteMiddleware.api).
+2024-02-12 10:21:39.354 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-12 10:21:39.355 -03:00 [INF] Executed action TesteMiddleware.api.Controllers.AuthController.Login (TesteMiddleware.api) in 241.2412ms
+2024-02-12 10:21:39.355 -03:00 [INF] Executed endpoint 'TesteMiddleware.api.Controllers.AuthController.Login (TesteMiddleware.api)'
+2024-02-12 10:21:39.355 -03:00 [INF] HTTP POST /api/Auth/login responded 200 in 250.7368 ms
+2024-02-12 10:21:39.355 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:53881/api/Auth/login - 200 null text/plain; charset=utf-8 252.854ms

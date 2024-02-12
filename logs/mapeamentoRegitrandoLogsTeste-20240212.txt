@@ -1,0 +1,21 @@
+2024-02-12 10:34:58.400 -03:00 [INF] User profile is available. Using 'C:\Users\Gugad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-12 10:34:58.610 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-12 10:34:58.611 -03:00 [INF] Hosting environment: Development
+2024-02-12 10:34:58.611 -03:00 [INF] Content root path: D:\Projetos_de_testes_Csharp\TesteMiddleware\TesteMiddleware.api
+2024-02-12 10:34:58.677 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/swagger/index.html - null null
+2024-02-12 10:34:58.944 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/swagger/index.html - 200 null text/html;charset=utf-8 269.0246ms
+2024-02-12 10:34:58.975 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-12 10:34:58.979 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 4.2416ms
+2024-02-12 10:34:58.987 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/_vs/browserLink - null null
+2024-02-12 10:34:59.028 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.0715ms
+2024-02-12 10:34:59.094 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/swagger/v1/swagger.json - null null
+2024-02-12 10:34:59.180 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.6366ms
+2024-02-12 10:35:17.141 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:53881/api/Auth/register - application/json 50
+2024-02-12 10:35:17.480 -03:00 [INF] Executing endpoint 'TesteMiddleware.api.Controllers.AuthController.Register (TesteMiddleware.api)'
+2024-02-12 10:35:17.509 -03:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TesteMiddleware.api.Entities.User]] Register(TesteMiddleware.api.DTOs.UserDto) on controller TesteMiddleware.api.Controllers.AuthController (TesteMiddleware.api).
+2024-02-12 10:35:17.547 -03:00 [INF] Usuario criado => {"Username":"string","PasswordHash":"47C9BDB0798201B800FEDB80D4B6281820EC0CDE643EB89297DF1436F5BA6A29B2A25FABD534A32271475653DF593FBFDBBAB1C035BDB96DE3E290BF461DFB49","PasswordSalt":"909F9D7ACC052EC62E8C02DD5FD3326976F82AF656B063FBF41A431428959E835DCA348B15838BE769BE51CB43C11EC2FA72452B11DF654BAF2CA38BC0AA407A5421D19C2947A674B2F3D41B533C372E987D93BAB76C203C409343D91C7561FC32511F382491C502F93C6C93378C0D71433C0447397944763EA3AF27385ED6DE","RefreshToken":"","TokenCreated":"0001-01-01T00:00:00.0000000","TokenExpires":"0001-01-01T00:00:00.0000000","$type":"User"}
+2024-02-12 10:35:17.559 -03:00 [INF] Executing OkObjectResult, writing value of type 'TesteMiddleware.api.Entities.User'.
+2024-02-12 10:35:17.571 -03:00 [INF] Executed action TesteMiddleware.api.Controllers.AuthController.Register (TesteMiddleware.api) in 59.0403ms
+2024-02-12 10:35:17.571 -03:00 [INF] Executed endpoint 'TesteMiddleware.api.Controllers.AuthController.Register (TesteMiddleware.api)'
+2024-02-12 10:35:17.572 -03:00 [INF] HTTP POST /api/Auth/register responded 200 in 422.9501 ms
+2024-02-12 10:35:17.573 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:53881/api/Auth/register - 200 null application/json; charset=utf-8 431.7552ms

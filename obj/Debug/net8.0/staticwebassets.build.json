@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LXPzJiL7qTEAYMuxlS2e10VzwizK8911VUt6VqLo+yM=",
+  "Source": "TesteMiddleware.api",
+  "BasePath": "_content/TesteMiddleware.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,224 @@
+2024-02-12 10:22:46.645 -03:00 [INF] User profile is available. Using 'C:\Users\Gugad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-12 10:22:46.868 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-12 10:22:46.869 -03:00 [INF] Hosting environment: Development
+2024-02-12 10:22:46.869 -03:00 [INF] Content root path: D:\Projetos_de_testes_Csharp\TesteMiddleware\TesteMiddleware.api
+2024-02-12 10:22:46.938 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/swagger/index.html - null null
+2024-02-12 10:22:47.196 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-12 10:22:47.197 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/_vs/browserLink - null null
+2024-02-12 10:22:47.197 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/swagger/index.html - 200 null text/html;charset=utf-8 262.712ms
+2024-02-12 10:22:47.203 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 5.3979ms
+2024-02-12 10:22:47.248 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.8084ms
+2024-02-12 10:22:47.300 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/swagger/v1/swagger.json - null null
+2024-02-12 10:22:47.393 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 93.0978ms
+2024-02-12 10:23:13.576 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:53881/api/Auth/register - application/json 50
+2024-02-12 10:23:13.911 -03:00 [INF] Executing endpoint 'TesteMiddleware.api.Controllers.AuthController.Register (TesteMiddleware.api)'
+2024-02-12 10:23:13.940 -03:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TesteMiddleware.api.Entities.User]] Register(TesteMiddleware.api.DTOs.UserDto) on controller TesteMiddleware.api.Controllers.AuthController (TesteMiddleware.api).
+2024-02-12 10:23:13.984 -03:00 [INF] Executing OkObjectResult, writing value of type 'TesteMiddleware.api.Entities.User'.
+2024-02-12 10:23:13.995 -03:00 [INF] Executed action TesteMiddleware.api.Controllers.AuthController.Register (TesteMiddleware.api) in 52.1258ms
+2024-02-12 10:23:13.995 -03:00 [INF] Executed endpoint 'TesteMiddleware.api.Controllers.AuthController.Register (TesteMiddleware.api)'
+2024-02-12 10:23:13.996 -03:00 [INF] HTTP POST /api/Auth/register responded 200 in 400.4922 ms
+2024-02-12 10:23:13.997 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:53881/api/Auth/register - 200 null application/json; charset=utf-8 420.9018ms
+2024-02-12 10:23:18.643 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:53881/api/Auth/login - application/json 50
+2024-02-12 10:23:18.647 -03:00 [INF] Executing endpoint 'TesteMiddleware.api.Controllers.AuthController.Login (TesteMiddleware.api)'
+2024-02-12 10:23:18.666 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(TesteMiddleware.api.DTOs.UserDto) on controller TesteMiddleware.api.Controllers.AuthController (TesteMiddleware.api).
+2024-02-12 10:23:18.809 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-12 10:23:18.810 -03:00 [INF] Executed action TesteMiddleware.api.Controllers.AuthController.Login (TesteMiddleware.api) in 144.1782ms
+2024-02-12 10:23:18.810 -03:00 [INF] Executed endpoint 'TesteMiddleware.api.Controllers.AuthController.Login (TesteMiddleware.api)'
+2024-02-12 10:23:18.811 -03:00 [INF] HTTP POST /api/Auth/login responded 200 in 165.4570 ms
+2024-02-12 10:23:18.811 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:53881/api/Auth/login - 200 null text/plain; charset=utf-8 167.8812ms
+2024-02-12 10:23:46.156 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/api/EstoqueMasculino/7c9e6679-7425-40de-944b-e07fc1f90ae7 - null null
+2024-02-12 10:23:46.256 -03:00 [INF] Executing endpoint 'TesteMiddleware.api.Controllers.EstoqueMasculinoController.GetById (TesteMiddleware.api)'
+2024-02-12 10:23:46.258 -03:00 [INF] Route matched with {action = "GetById", controller = "EstoqueMasculino"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(System.Guid) on controller TesteMiddleware.api.Controllers.EstoqueMasculinoController (TesteMiddleware.api).
+2024-02-12 10:23:53.286 -03:00 [INF] Executed action TesteMiddleware.api.Controllers.EstoqueMasculinoController.GetById (TesteMiddleware.api) in 7027.1474ms
+2024-02-12 10:23:53.289 -03:00 [INF] Executed endpoint 'TesteMiddleware.api.Controllers.EstoqueMasculinoController.GetById (TesteMiddleware.api)'
+2024-02-12 10:23:53.294 -03:00 [ERR] HTTP GET /api/EstoqueMasculino/7c9e6679-7425-40de-944b-e07fc1f90ae7 responded 500 in 7136.3199 ms
+System.InvalidOperationException: The entity type 'User' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.InMemory.Infrastructure.Internal.InMemoryModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at TesteMiddleware.api.Controllers.EstoqueMasculinoController.GetById(Guid id) in D:\Projetos_de_testes_Csharp\TesteMiddleware\TesteMiddleware.api\Controllers\EstoqueMasculinoController.cs:line 49
+   at lambda_method18(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-12 10:23:59.892 -03:00 [ERR] Erro ocorrido com TraceId: af006fcd-9c7b-4075-b19b-fd4402e83ce8
+System.InvalidOperationException: The entity type 'User' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.InMemory.Infrastructure.Internal.InMemoryModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at TesteMiddleware.api.Controllers.EstoqueMasculinoController.GetById(Guid id) in D:\Projetos_de_testes_Csharp\TesteMiddleware\TesteMiddleware.api\Controllers\EstoqueMasculinoController.cs:line 49
+   at lambda_method18(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at TesteMiddleware.api.Middleware.ErrorMiddleware.Invoke(HttpContext context) in D:\Projetos_de_testes_Csharp\TesteMiddleware\TesteMiddleware.api\Middleware\ErrorMiddleware.cs:line 29
+2024-02-12 10:24:01.168 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/api/EstoqueMasculino/7c9e6679-7425-40de-944b-e07fc1f90ae7 - 422 null application/problem+json 15011.6797ms
+2024-02-12 10:24:21.833 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/api/EstoqueMasculino - null null
+2024-02-12 10:24:21.835 -03:00 [INF] Executing endpoint 'TesteMiddleware.api.Controllers.EstoqueMasculinoController.GetAll (TesteMiddleware.api)'
+2024-02-12 10:24:21.836 -03:00 [INF] Route matched with {action = "GetAll", controller = "EstoqueMasculino"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller TesteMiddleware.api.Controllers.EstoqueMasculinoController (TesteMiddleware.api).
+2024-02-12 10:24:24.827 -03:00 [INF] Executed action TesteMiddleware.api.Controllers.EstoqueMasculinoController.GetAll (TesteMiddleware.api) in 2991.0599ms
+2024-02-12 10:24:24.830 -03:00 [INF] Executed endpoint 'TesteMiddleware.api.Controllers.EstoqueMasculinoController.GetAll (TesteMiddleware.api)'
+2024-02-12 10:24:24.834 -03:00 [ERR] HTTP GET /api/EstoqueMasculino responded 500 in 2999.4368 ms
+TesteMiddleware.api.ErrosHTTP.ForbiddenException: Acesso proibido
+   at TesteMiddleware.api.Controllers.EstoqueMasculinoController.GetAll() in D:\Projetos_de_testes_Csharp\TesteMiddleware\TesteMiddleware.api\Controllers\EstoqueMasculinoController.cs:line 31
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-12 10:24:26.787 -03:00 [ERR] Erro ocorrido com TraceId: 12ab0637-862a-49e4-9a25-5d48c245b3fd
+TesteMiddleware.api.ErrosHTTP.ForbiddenException: Acesso proibido
+   at TesteMiddleware.api.Controllers.EstoqueMasculinoController.GetAll() in D:\Projetos_de_testes_Csharp\TesteMiddleware\TesteMiddleware.api\Controllers\EstoqueMasculinoController.cs:line 31
+   at lambda_method29(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at TesteMiddleware.api.Middleware.ErrorMiddleware.Invoke(HttpContext context) in D:\Projetos_de_testes_Csharp\TesteMiddleware\TesteMiddleware.api\Middleware\ErrorMiddleware.cs:line 29
+2024-02-12 10:24:27.805 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/api/EstoqueMasculino - 403 null application/problem+json 5971.9652ms
+2024-02-12 10:31:51.530 -03:00 [INF] User profile is available. Using 'C:\Users\Gugad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-12 10:31:51.748 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-12 10:31:51.752 -03:00 [INF] Hosting environment: Development
+2024-02-12 10:31:51.752 -03:00 [INF] Content root path: D:\Projetos_de_testes_Csharp\TesteMiddleware\TesteMiddleware.api
+2024-02-12 10:31:51.830 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/swagger/index.html - null null
+2024-02-12 10:31:52.113 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/swagger/index.html - 200 null text/html;charset=utf-8 287.0562ms
+2024-02-12 10:31:52.137 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-12 10:31:52.140 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/_vs/browserLink - null null
+2024-02-12 10:31:52.143 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 4.9869ms
+2024-02-12 10:31:52.184 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.3189ms
+2024-02-12 10:31:52.228 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:53881/swagger/v1/swagger.json - null null
+2024-02-12 10:31:52.314 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:53881/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.3955ms
